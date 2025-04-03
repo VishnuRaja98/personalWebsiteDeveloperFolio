@@ -251,26 +251,26 @@ const bigProjects = {
   projects: [
     {
       image: require("./assets/images/methodology.png"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
-        }
-        //  you can add extra buttons here.
-      ]
+      projectName: "Dysarthric Speech Transcription",
+      projectDesc: "Ways to transcribe speech for patients with speech impairements caused by neurological disorders. Studying the efferct of finetuning different parts of LLM in understanding the speech.",
+      // footerLink: [
+      //   {
+      //     name: "Visit Website",
+      //     url: "http://saayahealth.com/"
+      //   }
+      //   //  you can add extra buttons here.
+      // ]
     },
     {
-      // image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://nextu.se/"
-        }
-      ]
+      image: require("./assets/images/hyperbolicEmbeddings.png"),
+      projectName: "Hyperbolic sentence embeddings",
+      projectDesc: "Showing the insufficiency of the SOTA Eucledin embeddings for sentences and attempting to use Hyperbolic transformations to overcome the shortcomings.",
+      // footerLink: [
+      //   {
+      //     name: "Visit Website",
+      //     url: "http://nextu.se/"
+      //   }
+      // ]
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -278,63 +278,123 @@ const bigProjects = {
 
 // Achievement Section
 // Include certificates, talks etc
-
+// actualy my smaller projects
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
+  title: emoji("Some of my own Projects "),
   subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+    "Some Cool Stuff that I have made !",
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "Blackjack counting cards using Reinforcement Learning",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      // image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+        "Created a blackjack agent using Deep-Q-Learning that counts cards and beats the casino.",
+      image: require("./assets/images/blackjackCountingCards.png"),
+      imageAlt: "Counting Cards image",
       footerLink: [
         {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+          name: "Git Repo",
+          url: "https://github.com/VishnuRaja98/Blackjack-RL-Counting-Cards"
         }
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "Pretrained LLM Survey",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      // image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
+        "Project and Poster to decide the best usecase for each pretrained LLMs.",
+      image: require("./assets/images/llmSurveyPoster.png"),
+      imageAlt: "LLM surevey poster",
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "Git Repo",
+          url: "https://github.com/VishnuRaja98/ML-Pretrained-LLM-Survey"
         }
       ]
     },
-
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      // image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
+      title: "Practical Byzantine Fault Tolerance (PBFT) Banking System",
+      subtitle:
+        "Scalable, fault-tolerant distributed system supporting 3000 users across 12 servers and 3 clusters using PBFT and 2PC",
+      image: require("./assets/images/pbft.png"),
+      imageAlt: "PBFT diagram",
       footerLink: [
-        {name: "Certification", url: ""},
         {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
+          name: "Git Repo",
+          url: "https://github.com/VishnuRaja98/2pc-PBFT-Banking-System"
         }
       ]
-    }
+    },
+    {
+      title: "Paxos Banking System",
+      subtitle:
+        "Scalable, fault-tolerant distributed system supporting 3000 data items across 9 servers and 3 clusters using PAXOS and 2PC",
+      image: require("./assets/images/paxos.png"),
+      imageAlt: "PAXOS diagram",
+      footerLink: [
+        {
+          name: "Git Repo",
+          url: "https://github.com/VishnuRaja98/2pc-Paxos-Banking-System"
+        }
+      ]
+    },
+    {
+      title: "WRBTL",
+      subtitle:
+        "A Wordle like game developed in Unity with AI, mutiplayer and more modes. (Something broke out of the blue. Will make it live when I get time)",
+      image: require("./assets/images/wrbtlefeature.png"),
+      imageAlt: "PAXOS diagram",
+      footerLink: [
+        {
+          name: "Git Repo",
+          url: "https://github.com/VishnuRaja98/WRBTL"
+        }
+      ]
+    },
+    {
+      title: "Liquitity Prediction",
+      subtitle:
+        "Implemented ARIMA to predict and maintain liquidity above predefined thresholds and created a dashboard to present results live.",
+      image: require("./assets/images/liquidityPrediction.png"),
+      imageAlt: "Liquidity prediction graphs",
+      footerLink: [
+        {
+          name: "Git Repo",
+          url: "https://github.com/VishnuRaja98/Liquidity-App"
+        }
+      ]
+    },
+    {
+      title: "Face Action Detection",
+      subtitle:
+        "Used CNNs to identify the direction the user is facing",
+      image: require("./assets/images/facePose.png"),
+      imageAlt: "Face Pose image",
+      footerLink: [
+        {
+          name: "Git Repo",
+          url: "https://github.com/VishnuRaja98/Facial-Action-Detection"
+        }
+      ]
+    },
+    {
+      title: "Garmin Watch Face App",
+      subtitle:
+        "Created a Android 12 style Customizeable watchface app using Monkey C",
+      image: require("./assets/images/watchface.png"),
+      imageAlt: "Watchface image",
+      footerLink: [
+        {
+          name: "Git Repo",
+          url: "https://github.com/VishnuRaja98/Garmin---Android-12-Clock-Watch-Face"
+        },
+        {
+          name: "Download",
+          url: "https://apps.garmin.com/apps/55f389c6-2a3e-441d-9689-37818bd328d9"
+        }
+      ]
+    },
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
