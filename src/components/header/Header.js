@@ -5,6 +5,8 @@ import ToggleSwitch from "../ToggleSwitch/ToggleSwitch";
 import StyleContext from "../../contexts/StyleContext";
 import {
   greeting,
+  educationInfo,
+  bigProjects,
   workExperiences,
   skillsSection,
   openSource,
@@ -16,6 +18,8 @@ import {
 
 function Header() {
   const {isDark} = useContext(StyleContext);
+  const viewEducation = educationInfo.display;
+  const viewBigProjects = bigProjects.display;
   const viewExperience = workExperiences.display;
   const viewOpenSource = openSource.display;
   const viewSkills = skillsSection.display;
@@ -44,6 +48,16 @@ function Header() {
           {viewSkills && (
             <li>
               <a href="#skills">Skills</a>
+            </li>
+          )}
+          {viewEducation && (
+            <li>
+              <a href="#education">Education</a>
+            </li>
+          )}
+          {viewBigProjects && (
+            <li>
+              <a href="#projects">Research</a>
             </li>
           )}
           {viewExperience && (
