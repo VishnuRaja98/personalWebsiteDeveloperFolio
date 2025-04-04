@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/personalWebsiteDeveloperFolio/static/css/main.fd9ab384.css",
+    "main.js": "/personalWebsiteDeveloperFolio/static/js/main.2639d8ce.js",
+    "static/css/64.46938cf9.chunk.css": "/personalWebsiteDeveloperFolio/static/css/64.46938cf9.chunk.css",
+    "static/js/64.56dc6704.chunk.js": "/personalWebsiteDeveloperFolio/static/js/64.56dc6704.chunk.js",
+    "static/css/769.b3cbb36b.chunk.css": "/personalWebsiteDeveloperFolio/static/css/769.b3cbb36b.chunk.css",
+    "static/js/769.bda0d7b7.chunk.js": "/personalWebsiteDeveloperFolio/static/js/769.bda0d7b7.chunk.js",
+    "static/media/Times New Roman.ttf": "/personalWebsiteDeveloperFolio/static/media/Times New Roman.f4e3a464f960c9dea950.ttf",
+    "static/media/methodology.png": "/personalWebsiteDeveloperFolio/static/media/methodology.e0728a282f2f37c9226c.png",
+    "static/media/sbuLogo.png": "/personalWebsiteDeveloperFolio/static/media/sbuLogo.3512af58b1d4e6b60eaf.png",
+    "static/media/llmSurveyPoster.png": "/personalWebsiteDeveloperFolio/static/media/llmSurveyPoster.4d7d30499c602e0d30ea.png",
+    "static/media/office_man.png": "/personalWebsiteDeveloperFolio/static/media/office_man.a76e0d8d37028813506d.png",
+    "static/media/Vishnu Raja Resume.pdf": "/personalWebsiteDeveloperFolio/static/media/Vishnu Raja Resume.91e55e576ffda47511f0.pdf",
+    "static/media/facePose.png": "/personalWebsiteDeveloperFolio/static/media/facePose.578ce9df93c3b56d7ebb.png",
+    "static/media/watchface.png": "/personalWebsiteDeveloperFolio/static/media/watchface.6178f306fa69ab073f5a.png",
+    "static/media/liquidityPrediction.png": "/personalWebsiteDeveloperFolio/static/media/liquidityPrediction.9e2d6d5e9a1f58c6b3c9.png",
+    "static/media/blackjackCountingCards.png": "/personalWebsiteDeveloperFolio/static/media/blackjackCountingCards.e6e3c57dc7e287f7fdb5.png",
+    "static/media/bento_grid.png": "/personalWebsiteDeveloperFolio/static/media/bento_grid.902e4d31281b03add034.png",
+    "static/media/hyperbolicEmbeddings.png": "/personalWebsiteDeveloperFolio/static/media/hyperbolicEmbeddings.4f4122aeb7fe70de42ce.png",
+    "static/media/paxos.png": "/personalWebsiteDeveloperFolio/static/media/paxos.c5a7d491a147bb1c1b29.png",
+    "static/media/adorLogo.jfif": "/personalWebsiteDeveloperFolio/static/media/adorLogo.0365429406fc81e07d53.jfif",
+    "static/media/contactMailDark.svg": "/personalWebsiteDeveloperFolio/static/media/contactMailDark.1db650d351729a0f17b4e3104e6a7b7a.svg",
+    "static/media/erLogo.png": "/personalWebsiteDeveloperFolio/static/media/erLogo.e341de2a25264b8fc664.png",
+    "static/media/pbft.png": "/personalWebsiteDeveloperFolio/static/media/pbft.b876d6e4d39724bb7340.png",
+    "static/media/wrbtlefeature.png": "/personalWebsiteDeveloperFolio/static/media/wrbtlefeature.64de27613c245ee6f9ba.png",
+    "static/media/vaultizeLogo.jfif": "/personalWebsiteDeveloperFolio/static/media/vaultizeLogo.b9d3ee4f879d01bc85ac.jfif",
+    "index.html": "/personalWebsiteDeveloperFolio/index.html",
+    "static/media/talksCardBack.svg": "/personalWebsiteDeveloperFolio/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
+    "main.fd9ab384.css.map": "/personalWebsiteDeveloperFolio/static/css/main.fd9ab384.css.map",
+    "main.2639d8ce.js.map": "/personalWebsiteDeveloperFolio/static/js/main.2639d8ce.js.map",
+    "64.46938cf9.chunk.css.map": "/personalWebsiteDeveloperFolio/static/css/64.46938cf9.chunk.css.map",
+    "64.56dc6704.chunk.js.map": "/personalWebsiteDeveloperFolio/static/js/64.56dc6704.chunk.js.map",
+    "769.b3cbb36b.chunk.css.map": "/personalWebsiteDeveloperFolio/static/css/769.b3cbb36b.chunk.css.map",
+    "769.bda0d7b7.chunk.js.map": "/personalWebsiteDeveloperFolio/static/js/769.bda0d7b7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fd9ab384.css",
+    "static/js/main.2639d8ce.js"
+  ]
+}
